@@ -1,0 +1,92 @@
+body {
+  background-color: #eee;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  background-color: steelblue;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+
+li:hover a {
+  color: #eee;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+
+
+/*** Magia del target **/
+
+.d-none {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+
+.d-none:target {
+  height: auto;
+  opacity: 1;
+  transition: all .5s;
+}
+
+
+
+.item {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-color: purple;
+  color: #fff;
+  line-height: 60px;
+  margin: 10px 5px;
+}
+
+
+.item:first-of-type {
+  background-color: green;
+}
+
+div.item:last-child {
+  background-color: red;
+}

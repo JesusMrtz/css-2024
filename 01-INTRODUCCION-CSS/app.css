@@ -1,0 +1,14 @@
+:root {
+  --bg-color: steelblue;
+  --principal-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--principal-color);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}

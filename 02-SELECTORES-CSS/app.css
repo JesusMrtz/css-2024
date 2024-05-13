@@ -1,0 +1,32 @@
+body {
+  background-color: steelblue;
+}
+
+h1 {
+  color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#subtitle {
+  font-weight: 400;
+}
+
+
+article > p {
+  background-color: yellow;
+}
+
+div + * {
+  background-color: rebeccapurple !important;
+}

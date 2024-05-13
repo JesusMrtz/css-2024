@@ -1,0 +1,38 @@
+h1 {
+  background-color: rebeccapurple;
+  width: 200px;
+  height: 200px;
+  border: 2px solid  red;
+}
+
+p {
+  background-color: green;
+  height: 100px;
+}
+
+p {
+  display: inline;
+}
+
+span {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  display: inline;
+}
+
+span {
+  display: inline-block;
+}
+
+.gallery {
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  margin: 20px;
+}

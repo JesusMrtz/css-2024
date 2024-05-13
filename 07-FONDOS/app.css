@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  padding-bottom: 30px;
+}
+
+h1 {
+  background-color: yellow;
+}
+
+.box {
+  background-color: yellow;
+  border: 10px dashed black;
+  padding: 25px;
+  width: 300px;
+  height: 300px;
+  background-clip: border-box;
+  background-origin: content-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.box-yin-yang {
+  --size: 250px;
+
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: 
+  /** ojitos del yin-yang **/
+  radial-gradient(15% 15% at 50% 25%,black 50%, transparent 50%),
+  radial-gradient(15% 15% at 50% 75%, white 50%, transparent 50%),
+
+  /** Radiales para dar formas circulares al linear-gradient **/
+  radial-gradient(50% 50% at 50% 25%,white 50%, transparent 50%),
+  radial-gradient(50% 50% at 50% 75%,black 50%, transparent 50%),
+
+  /** División del white de derecha a izquierda del blanco al negro **/
+  linear-gradient(to right,white 50%, black 50%);
+}
